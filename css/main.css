@@ -1,0 +1,54 @@
+@import 'normalize.css';
+@import 'header.css';
+@import 'breadcrumbs.css';
+@import 'title.css';
+@import 'sidebar.css';
+@import 'links.css';
+@import 'list.css';
+@import 'grid.css';
+@import 'table.css';
+@import 'footer.css';
+@import 'button.css';
+
+* {
+  box-sizing: border-box;
+}
+
+ body { 
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;;
+} 
+
+.container {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.text {
+  color: #333333;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.layout-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  margin-right: 50px;
+  flex-grow: 1;
+}
+
+.section {
+  overflow: hidden;
+  border-bottom: 1px dashed  #c8c8c8;
+  padding-bottom: 13px;
+  margin-bottom: 10px;
+}
+
+
+
+

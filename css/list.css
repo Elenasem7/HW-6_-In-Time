@@ -1,0 +1,28 @@
+.list-variety {
+  list-style-type: none;
+  counter-reset: item;
+  padding: 0;
+  color: #323232;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.list-variety li:before {
+  content: counter(item) ') ';
+  counter-increment: item;
+}
+
+.link-variety {
+  list-style-type: none;
+  padding: 0;
+  color: #7c7c7c;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+.link-variety li:before {
+  content: "━";
+  opacity: 0.5;
+}
